@@ -1,4 +1,4 @@
-"# The Sample ConvertMVC5ToCore31 for .NET Conf Taiwan 2019 Conference" 
+﻿"# The Sample ConvertMVC5ToCore31 for .NET Conf Taiwan 2019 Conference" 
 # （演講主題）該準備從 .NET Framework 4.x 遷移至 .NET Core 3.0 了嗎？
 
 ## 原始碼內容為下方【移轉實例 Demo】中使用的 Visual Studio (擴充套件／VsPackage) 原始碼
@@ -13,18 +13,18 @@
 * 原有 ASP.NET MVC 5 遷移至 ASP.NET Core 3.0 的挑戰
 * 官方的 Migration 工具
 * 觀念澄清
-	(1). 雖然部分目前部分底層難以移植，但是其實也不需要移植，只需要【創造】+【取代】即可。
+    * (1). 雖然部分目前部分底層難以移植，但是其實也不需要移植，只需要【創造】+【取代】即可。
 * 移轉實例 Demo：
-	(1). 現有程式碼分析(.NET 可攜性分析工具) .NET Portability Analyzer
-	(2). 使用 PortApi CLI 分析現有程式碼
-	(3). 使用 .NET API 分析器
-		「API 分析器」是以 NuGet 套件 Microsoft.DotNet.Analyzers.Compatibility 的形式提供
-		探索已被取代的 API
-	(4). 使用架構分析器 .NET Framework Analyzer
-		Microsoft.CodeQuality.Analyzers
-		Microsoft.CodeAnalysis.Analyzers
-		Microsoft.AspNetCore.Mvc.Analyzers
-	(5). 使用自行開發 VS Extension & CLI 工具移轉 ASP.NET Web API to ASP.NET Core
+    * 現有程式碼分析(.NET 可攜性分析工具) .NET Portability Analyzer
+    * 使用 PortApi CLI 分析現有程式碼
+    * 使用 .NET API 分析器
+	「API 分析器」是以 NuGet 套件 Microsoft.DotNet.Analyzers.Compatibility 的形式提供
+	探索已被取代的 API
+    * 使用架構分析器 .NET Framework Analyzer
+	Microsoft.CodeQuality.Analyzers
+	Microsoft.CodeAnalysis.Analyzers
+	Microsoft.AspNetCore.Mvc.Analyzers
+    * 使用自行開發 VS Extension & CLI 工具移轉 ASP.NET Web API to ASP.NET Core
 
 
 ## 議程簡述：
