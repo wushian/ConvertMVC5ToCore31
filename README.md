@@ -5,7 +5,7 @@
 
 大綱：
 * 該做好準備嗎？
-    * 	(1). 為什麼需要準備？
+    * 	為什麼需要準備？
 * 談微軟近年來的改變
 * .NET Framework vs. .NET Core
 * 漫談 .NET Core & ASP.NET Core
@@ -13,7 +13,6 @@
 * 原有 ASP.NET MVC 5 遷移至 ASP.NET Core 3.0 的挑戰
 * 官方的 Migration 工具
 * 觀念澄清
-
 	(1). 雖然部分目前部分底層難以移植，但是其實也不需要移植，只需要【創造】+【取代】即可。
 * 移轉實例 Demo：
 	(1). 現有程式碼分析(.NET 可攜性分析工具) .NET Portability Analyzer
