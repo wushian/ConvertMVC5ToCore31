@@ -1,0 +1,26 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="ConvertMVC5ToCore3.963c95cb-b79d-45fa-b934-e9f25eb04306" Version="1.0" Language="en-US" Publisher="Gelis" />
+    <DisplayName>ConvertMVC5ToCore3</DisplayName>
+    <Description xml:space="preserve">.NET Conf 2019
+將 ASP.NET MVC 5 的專案類型轉換成 ASP.NET Core 3.0 類型的專案
+
+建立者：Gelis</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+    <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
+    <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.VWDExpress" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.16.0" DisplayName="Visual Studio MPF 16.0" Version="[16.0,17.0)" />
+  </Dependencies>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="ConvertMVC5ToCore3.pkgdef" />
+  </Assets>
+</PackageManifest>

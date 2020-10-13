@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Gelis Documents\\教育訓練課程\\該準備從.NET Framework 4.x遷移至.NET Core 3.0了嗎\\Samples\\ConvertMVC5ToCore3\\ConvertMVC5ToCore3\\ConvertMVC5ToCore3.csproj": {}
+  },
+  "projects": {
+    "D:\\Gelis Documents\\教育訓練課程\\該準備從.NET Framework 4.x遷移至.NET Core 3.0了嗎\\Samples\\ConvertMVC5ToCore3\\ConvertMVC5ToCore3\\ConvertMVC5ToCore3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Gelis Documents\\教育訓練課程\\該準備從.NET Framework 4.x遷移至.NET Core 3.0了嗎\\Samples\\ConvertMVC5ToCore3\\ConvertMVC5ToCore3\\ConvertMVC5ToCore3.csproj",
+        "projectName": "ConvertMVC5ToCore3",
+        "projectPath": "D:\\Gelis Documents\\教育訓練課程\\該準備從.NET Framework 4.x遷移至.NET Core 3.0了嗎\\Samples\\ConvertMVC5ToCore3\\ConvertMVC5ToCore3\\ConvertMVC5ToCore3.csproj",
+        "packagesPath": "C:\\Users\\Gelis\\.nuget\\packages\\",
+        "outputPath": "D:\\Gelis Documents\\教育訓練課程\\該準備從.NET Framework 4.x遷移至.NET Core 3.0了嗎\\Samples\\ConvertMVC5ToCore3\\ConvertMVC5ToCore3\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Gelis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Gelis Documents\\文章圖片\\您的軟體架構夠敏捷嗎（二）-持續演進的軟體架構\\Samples\\ATMSolution\\PackageSources": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[16.3.2099, )"
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[16.0.202, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
