@@ -1,4 +1,3 @@
-﻿"# The Sample ConvertMVC5ToCore31 for .NET Conf Taiwan 2019 Conference" 
 # （演講主題）該準備從 .NET Framework 4.x 遷移至 .NET Core 3.0 了嗎？
 
 ## 原始碼內容為下方【移轉實例 Demo】中使用的 Visual Studio (擴充套件／VsPackage) 原始碼
@@ -32,5 +31,5 @@
 
 因為所有的 Developer 其實都在做同一件事，就是當你每發佈（Release）或修正(Fix)一個問題(Bug)時，你得要改三個地方(.NET Core/.NET Framework/Xamarin)的時候，慢慢地你就會想怎麼樣可以『只改一次』？怎麼樣可以讓程式碼由【三份】變成【一份】，於是 .NET 5 誕生了
 
-## 課程 Slide 連結
-https://www.slideshare.net/GelisWu/net-framework-4x-net-core-30
+## 課程 Slide 連結 (SlideShare)：
+<a href="https://www.slideshare.net/GelisWu/net-framework-4x-net-core-30" target="_blank">該準備從 .NET Framework 4.x 遷移至 .NET Core 3.0 了嗎？</a>
